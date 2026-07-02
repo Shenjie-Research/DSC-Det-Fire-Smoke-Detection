@@ -1,0 +1,26 @@
+After the manuscript is formally accepted for publication, this repository will release the following materials:
+
+dataset/
+├── images/
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── labels/
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── splits/
+│   ├── train.txt
+│   ├── val.txt
+│   └── test.txt
+├── data.yaml
+└── README_dataset.md
+
+The released materials will include:
+
+the complete image dataset used in the experiments;
+YOLO-format bounding-box annotations;
+training, validation, and test split files;
+dataset configuration file;
+preprocessing and annotation description;
+source dataset information.
