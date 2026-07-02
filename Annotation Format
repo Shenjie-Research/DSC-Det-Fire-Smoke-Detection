@@ -1,0 +1,8 @@
+The annotations follow the YOLO bounding-box format. Each annotation file corresponds to one image and contains one or more object instances:
+
+class_id x_center y_center width height
+
+The class definition is:
+
+0: fire
+1: smoke
